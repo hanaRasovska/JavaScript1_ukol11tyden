@@ -1,0 +1,150 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color:#000d1a ;
+    background:#003366 ;
+    margin:0;
+}
+
+h1{
+    font-size: 70px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+}
+
+h2{
+    font-size: 40px;
+    text-align: left;
+    margin-top:0;
+}
+
+section a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color:#000d1a ;
+}
+/*formatovani sekci*/
+section{
+    padding: 40px 100px;
+    overflow: auto;
+}
+
+.hlavicka{
+    background-image: url(obrazky/sky.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:100px 30px;
+    opacity: 1.0;
+}
+
+.omne, 
+.zajmy{
+    background:#b3d9ff;
+}
+
+.prace,
+.kontakt{
+    background:  #80bfff;
+}
+
+.kontakt{
+    line-height: 1.0;
+}
+
+.paticka{
+    color:#ffffff;
+    text-align: center;
+    padding:10px;
+}
+
+/*formatovani obrazku*/
+img{
+    margin: 0 30px 30px 0;
+}
+
+.to_jsem_ja{
+    height: 400px;
+    float: left;
+    border-color: #003366;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.ozubena_kola{
+    width:400px;
+    float:right;
+    border-color: #003366;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.kniha{
+    width:700px;
+    float:left;
+    border-color: #003366;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.message{
+    width:200px;
+    float:right;
+    border-radius:50%;
+}
+
+/*formatovani tabulky*/
+table{
+    border-spacing: 0;
+    text-align: left;
+}
+
+th{
+    border-bottom: #003366 solid 2px;
+    border-top: #003366 solid 2px ;
+    padding: 15px 0; 
+}
+
+td{
+    border-bottom: #003366 solid 1px;
+    padding: 15px 0;
+}
+
+.sloupec1{
+    padding-right: 30px;
+}
+
+/*formatovani menu*/
+.menu {
+    margin:0;
+    padding: 0;
+    text-align: center;
+    /*border-style: solid;*/
+    /*border-width: 3px;*/
+    margin:0;
+}
+
+.menu li {
+    display:inline-block;
+}
+
+.menu a {
+    display:inline-block;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 10px 40px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active{
+    background: #80bfff;
+    color:#000d1a;
+    font-weight: bold;
+}
